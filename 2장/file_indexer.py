@@ -4,7 +4,8 @@ import pickle
 import re
 import os
 
-
+# 디렉터리 지정
+# path = input('지정할 디렉터리 경로를 입력해주세요 : ')
 path = os.getcwd() + '/bigdata/'
 text_file_list = os.listdir(path)
 
